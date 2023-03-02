@@ -1,0 +1,266 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a:link {
+  color:#BA1F33;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #BA1F33;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+header {
+	background-color: #BB9457;
+	color: #FFE6A7;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+
+main {
+	margin: 20px;
+}
+
+footer {
+	background-color: #6F1D1B;
+	padding: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	
+}
+
+body {
+background-color: #432818;
+}
+*
+
+{
+    margin : 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, Serif
+
+}
+
+nav{
+    width: 100%;
+    margin : 0 auto;
+    background-color: #6F1D1B;
+    position: sticky;
+    top: 0px
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center; 
+}
+
+nav ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #BA1F33;
+    border-bottom: 2px solid transparent;
+    padding : 10px 0px;
+}
+
+nav a:hover{
+    color:crange;
+    border-bottom:2px solid #CD5D67; 
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #CD5D67;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float:none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px ;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    padding:10px;
+    border-bottom: none;
+}
+
+.deroulant > a::after{
+    content:"▼";
+    font-size: 12px;
+}
+
+.sous{
+    display:none;
+    box-shadow:0px 1px 2px #421820;
+    background-color: ##6F1D1B;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+div.dbg {
+    position:absolute;
+    top: 10;
+    left: 0; 
+    background-color: #410B13; width: 300px; height: 200px;
+  }
+ 
+.container{
+  font-family: "arial";
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  width:125px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking {
+  0% {border-color: transparent}
+  50% {border-color: black}
+  100% {border-color: transparent}
+}
+
+.containerPI{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    width:250px;
+  }
+
+  .containerEVO{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    width:125px;
+  }
+
+  .containerHIS{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    width:125px;
+  }
+
+  .containerHISP{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    width:1750px;
+  }
+  
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .typedPI {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.4s steps(30, end) forwards, blinking 1s infinite;
+  }
+
+  .typedEVO {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.4s steps(30, end) forwards, blinking 1s infinite;
+  }
+
+  .typedHIS {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.5s steps(30, end) forwards, blinking 1s infinite;
+  }
+
+  .typedHISP {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.7s steps(30, end) forwards, blinking 1s infinite;
+  }
+
+
+  .typed{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.5s steps(30, end) forwards, blinking 1s infinite;
+  }
+
+  .container{
+    font-family: "arial";
+    font-size: 24px;
+    display: grid;
+    place-items: center;
+    width:135px;
+  }
